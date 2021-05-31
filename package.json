@@ -1,6 +1,6 @@
 {
-  "name": "logger",
-  "version": "0.0.2",
+  "name": "@adalbeca/logger",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "author": "Adelys Alberto",
@@ -23,7 +23,7 @@
     "url": "https://github.com/AdelysAlberto/logger-ts/issues"
   },
   "homepage": "https://github.com/AdelysAlberto/logger-ts/logger",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^10.0.0",
     "uuid": "^8.3.2"
