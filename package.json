@@ -1,0 +1,37 @@
+{
+  "name": "logger",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "author": "Adelys Alberto",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdelysAlberto/logger-ts.git"
+  },
+  "keywords": [
+    "ts",
+    "log",
+    "debug",
+    "typescript",
+    "trace"
+  ],
+  "bugs": {
+    "url": "https://github.com/AdelysAlberto/logger-ts/issues"
+  },
+  "homepage": "https://github.com/AdelysAlberto/logger-ts/logger",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "@types/uuid": "^8.3.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
