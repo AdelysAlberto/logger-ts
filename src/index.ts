@@ -1,12 +1,12 @@
-/// <reference types="../types" />
+
 
 import { getCallOrigin } from './utils/callOrigin';
 
 import { v4 } from 'uuid';
 
-type TValue = LoggerType.TFormatMessage;
+type TValue = TFormatMessage;
 //Define numeric level number.
-const levelMaps: LoggerType.TLevelMaps = {
+const levelMaps: TLevelMaps = {
   LOG: 0,
   DEBUG: 10,
   INFO: 20,
@@ -17,7 +17,7 @@ const levelMaps: LoggerType.TLevelMaps = {
 
 const colorFont = (color: string) => {
   // format is Background and Foreground
-  const colors: LoggerType.TColors = {
+  const colors: TColors = {
     success: '\x1b[42m \x1b[37m',
     warn: '\x1b[30m \x1b[43m',
     debug: '\x1b[46m \x1b[37m',
@@ -34,7 +34,7 @@ const colorFont = (color: string) => {
  * @param code {string} code log description.
  * @returns {TFormatResponse}
  */
-const format = (value: LoggerType.TFormatMessage, code: number): LoggerType.TFormatResponse => {
+const format = (value: TFormatMessage, code: number): TFormatResponse => {
   const msg = value.message;
 
   const dateEvent = new Date();

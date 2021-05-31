@@ -1,11 +1,12 @@
 {
   "name": "@adalbeca/logger",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "",
-  "main": "index.js",
   "author": "Adelys Alberto",
-  "typings": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "rm -rf ./dist && tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
